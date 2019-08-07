@@ -62,15 +62,15 @@ section {
   background-color: #34c3eb;
   border: 1px solid #34c3eb;
 }
-.btn-red {
+.btn-blue {
   color: #fff;
   border: 1px solid #fff;
   background-color: #34c3eb;
 }
 
-.btn-red:hover,
-.btn-red:focus,
-.btn-red:active {
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
   color: #fff;
   background-color: #212226;
   border: 1px solid #212226;

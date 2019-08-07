@@ -16,6 +16,7 @@ import { PricingComponent } from './Components/Layout/pricing/pricing.component'
 import { ContactUsComponent } from './Components/Layout/contact-us/contact-us.component';
 import { ContactUsFormComponent } from './Components/Forms/contact-us-form/contact-us-form.component';
 import { FooterComponent } from './Components/Layout/footer/footer.component';
+import { NavbarComponent } from './Components/Layout/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FooterComponent } from './Components/Layout/footer/footer.component';
     PricingComponent,
     ContactUsComponent,
     ContactUsFormComponent,
-    FooterComponent
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
