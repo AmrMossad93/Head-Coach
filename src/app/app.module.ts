@@ -15,6 +15,7 @@ import { CaptainPortfolioComponent } from './Components/Layout/captain-portfolio
 import { PricingComponent } from './Components/Layout/pricing/pricing.component';
 import { ContactUsComponent } from './Components/Layout/contact-us/contact-us.component';
 import { ContactUsFormComponent } from './Components/Forms/contact-us-form/contact-us-form.component';
+import { FooterComponent } from './Components/Layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ContactUsFormComponent } from './Components/Forms/contact-us-form/conta
     CaptainPortfolioComponent,
     PricingComponent,
     ContactUsComponent,
-    ContactUsFormComponent
+    ContactUsFormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+footer {
+  background: #212226;
+  padding: 10px;
+}
+
+footer p {
+  color: #fff;
+  line-height: 20px;
+}
+
+footer p span {
+  color: #34c3eb;
+}
