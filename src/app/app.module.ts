@@ -13,6 +13,8 @@ import { StatmentComponent } from './Components/Layout/statment/statment.compone
 import { CaptainServicesComponent } from './Components/Layout/captain-services/captain-services.component';
 import { CaptainPortfolioComponent } from './Components/Layout/captain-portfolio/captain-portfolio.component';
 import { PricingComponent } from './Components/Layout/pricing/pricing.component';
+import { ContactUsComponent } from './Components/Layout/contact-us/contact-us.component';
+import { ContactUsFormComponent } from './Components/Forms/contact-us-form/contact-us-form.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { PricingComponent } from './Components/Layout/pricing/pricing.component'
     StatmentComponent,
     CaptainServicesComponent,
     CaptainPortfolioComponent,
-    PricingComponent
+    PricingComponent,
+    ContactUsComponent,
+    ContactUsFormComponent
   ],
   imports: [
     BrowserModule,
