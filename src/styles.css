@@ -88,6 +88,15 @@ section {
   background-color: #212226;
   border: 1px solid #212226;
 }
+.btn-back-to-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 3px 15px;
+  border-radius: 5px;
+  font-size: 22px;
+  display: none;
+}
 /* Boxes */
 .content-box-lg {
   padding: 120px 0;
