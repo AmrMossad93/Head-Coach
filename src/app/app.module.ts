@@ -17,6 +17,11 @@ import { ContactUsComponent } from './Components/Layout/contact-us/contact-us.co
 import { ContactUsFormComponent } from './Components/Forms/contact-us-form/contact-us-form.component';
 import { FooterComponent } from './Components/Layout/footer/footer.component';
 import { NavbarComponent } from './Components/Layout/navbar/navbar.component';
+import { SettingPageComponent } from './Components/Pages/setting-page/setting-page.component';
+import { TeamMangmentPageComponent } from './Components/Pages/team-mangment-page/team-mangment-page.component';
+import { PlayersMangmentPageComponent } from './Components/Pages/players-mangment-page/players-mangment-page.component';
+import { ReportPageComponent } from './Components/Pages/report-page/report-page.component';
+import { HeadPageCarouselComponent } from './Components/Widgets/head-page-carousel/head-page-carousel.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +39,12 @@ import { NavbarComponent } from './Components/Layout/navbar/navbar.component';
     ContactUsComponent,
     ContactUsFormComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    SettingPageComponent,
+    TeamMangmentPageComponent,
+    PlayersMangmentPageComponent,
+    ReportPageComponent,
+    HeadPageCarouselComponent
   ],
   imports: [
     BrowserModule,
