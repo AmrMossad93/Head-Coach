@@ -24,6 +24,7 @@ import { ReportPageComponent } from './Components/Pages/report-page/report-page.
 import { HeadPageCarouselComponent } from './Components/Widgets/head-page-carousel/head-page-carousel.component';
 import { PlayerCardComponent } from './Components/Widgets/player-card/player-card.component';
 import { NewPlayerFormComponent } from './Components/Forms/new-player-form/new-player-form.component';
+import { AnalysisPageComponent } from './Components/Pages/analysis-page/analysis-page.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { NewPlayerFormComponent } from './Components/Forms/new-player-form/new-p
     ReportPageComponent,
     HeadPageCarouselComponent,
     PlayerCardComponent,
-    NewPlayerFormComponent
+    NewPlayerFormComponent,
+    AnalysisPageComponent
   ],
   imports: [
     BrowserModule,

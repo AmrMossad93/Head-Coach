@@ -5,6 +5,7 @@ import { SettingPageComponent } from './Components/Pages/setting-page/setting-pa
 import { TeamMangmentPageComponent } from './Components/Pages/team-mangment-page/team-mangment-page.component';
 import { PlayersMangmentPageComponent } from './Components/Pages/players-mangment-page/players-mangment-page.component';
 import { ReportPageComponent } from './Components/Pages/report-page/report-page.component';
+import { AnalysisPageComponent } from './Components/Pages/analysis-page/analysis-page.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'teamMangments', component: TeamMangmentPageComponent},
   {path: 'playersMangments', component: PlayersMangmentPageComponent},
   {path: 'reports', component: ReportPageComponent},
+  {path: 'analysis', component: AnalysisPageComponent},
 ];
 
 @NgModule({
