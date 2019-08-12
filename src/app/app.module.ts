@@ -25,6 +25,7 @@ import { HeadPageCarouselComponent } from './Components/Widgets/head-page-carous
 import { PlayerCardComponent } from './Components/Widgets/player-card/player-card.component';
 import { NewPlayerFormComponent } from './Components/Forms/new-player-form/new-player-form.component';
 import { AnalysisPageComponent } from './Components/Pages/analysis-page/analysis-page.component';
+import { GuidBoxComponent } from './Components/Widgets/guid-box/guid-box.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { AnalysisPageComponent } from './Components/Pages/analysis-page/analysis
     HeadPageCarouselComponent,
     PlayerCardComponent,
     NewPlayerFormComponent,
-    AnalysisPageComponent
+    AnalysisPageComponent,
+    GuidBoxComponent
   ],
   imports: [
     BrowserModule,

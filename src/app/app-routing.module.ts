@@ -8,12 +8,12 @@ import { ReportPageComponent } from './Components/Pages/report-page/report-page.
 import { AnalysisPageComponent } from './Components/Pages/analysis-page/analysis-page.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'settings', component: SettingPageComponent},
-  {path: 'teamMangments', component: TeamMangmentPageComponent},
-  {path: 'playersMangments', component: PlayersMangmentPageComponent},
-  {path: 'reports', component: ReportPageComponent},
-  {path: 'analysis', component: AnalysisPageComponent},
+  { path: '', component: HomeComponent },
+  { path: 'settings', component: SettingPageComponent },
+  { path: 'teamMangments', component: TeamMangmentPageComponent },
+  { path: 'playersMangments', component: PlayersMangmentPageComponent },
+  { path: 'reports', component: ReportPageComponent },
+  { path: 'analysis', component: AnalysisPageComponent },
 ];
 
 @NgModule({
