@@ -22,6 +22,8 @@ import { TeamMangmentPageComponent } from './Components/Pages/team-mangment-page
 import { PlayersMangmentPageComponent } from './Components/Pages/players-mangment-page/players-mangment-page.component';
 import { ReportPageComponent } from './Components/Pages/report-page/report-page.component';
 import { HeadPageCarouselComponent } from './Components/Widgets/head-page-carousel/head-page-carousel.component';
+import { PlayerCardComponent } from './Components/Widgets/player-card/player-card.component';
+import { NewPlayerFormComponent } from './Components/Forms/new-player-form/new-player-form.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { HeadPageCarouselComponent } from './Components/Widgets/head-page-carous
     TeamMangmentPageComponent,
     PlayersMangmentPageComponent,
     ReportPageComponent,
-    HeadPageCarouselComponent
+    HeadPageCarouselComponent,
+    PlayerCardComponent,
+    NewPlayerFormComponent
   ],
   imports: [
     BrowserModule,

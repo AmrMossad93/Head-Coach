@@ -1,0 +1,18 @@
+  <div class="panel panel-info">
+    <div class="panel-heading"> {{playerName}}</div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-md-4">
+          <img [src]="playerImage" class="img-thumbnail" alt="{{playerName}}">
+        </div>
+        <div class="col-md-8">
+          <label for="progressbar">{{progressBarLabel}}</label>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="percentageProgressBar"  style="width: 15%" aria-valuemin="0" aria-valuemax="100">
+              {{percentageProgressBar}}%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
