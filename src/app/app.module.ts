@@ -26,6 +26,7 @@ import { PlayerCardComponent } from './Components/Widgets/player-card/player-car
 import { NewPlayerFormComponent } from './Components/Forms/new-player-form/new-player-form.component';
 import { AnalysisPageComponent } from './Components/Pages/analysis-page/analysis-page.component';
 import { GuidBoxComponent } from './Components/Widgets/guid-box/guid-box.component';
+import { VedioGuidComponent } from './Components/Widgets/vedio-guid/vedio-guid.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { GuidBoxComponent } from './Components/Widgets/guid-box/guid-box.compone
     PlayerCardComponent,
     NewPlayerFormComponent,
     AnalysisPageComponent,
-    GuidBoxComponent
+    GuidBoxComponent,
+    VedioGuidComponent
   ],
   imports: [
     BrowserModule,
