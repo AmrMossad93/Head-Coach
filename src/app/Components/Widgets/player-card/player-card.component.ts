@@ -9,7 +9,7 @@ export class PlayerCardComponent implements OnInit {
 @Input() playerImage: string;
 @Input() playerName: string;
 @Input() playerData: string;
-@Input() progressBarLabel : string;
+@Input() progressBarLabel: string;
 @Input() percentageProgressBar: number;
   constructor() { }
 

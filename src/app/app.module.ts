@@ -27,6 +27,8 @@ import { NewPlayerFormComponent } from './Components/Forms/new-player-form/new-p
 import { AnalysisPageComponent } from './Components/Pages/analysis-page/analysis-page.component';
 import { GuidBoxComponent } from './Components/Widgets/guid-box/guid-box.component';
 import { VedioGuidComponent } from './Components/Widgets/vedio-guid/vedio-guid.component';
+import { ModalComponent } from './Components/Widgets/modal/modal.component';
+import { NavTabsComponent } from './Components/Widgets/nav-tabs/nav-tabs.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,9 @@ import { VedioGuidComponent } from './Components/Widgets/vedio-guid/vedio-guid.c
     NewPlayerFormComponent,
     AnalysisPageComponent,
     GuidBoxComponent,
-    VedioGuidComponent
+    VedioGuidComponent,
+    ModalComponent,
+    NavTabsComponent
   ],
   imports: [
     BrowserModule,

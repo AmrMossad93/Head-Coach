@@ -37,7 +37,19 @@ section {
   background: #fff;
   overflow: hidden;
 }
-
+/* Animation Delay */
+.delay-1 {
+  animation-delay: .25s;
+  }
+  .delay-2 {
+  animation-delay: .5s;
+  }
+  .delay-3 {
+  animation-delay: .75s;
+  }
+  .delay-4 {
+  animation-delay: 1s;
+  }
 /* Buttons */
 .btn-general {
   font-family: "Raleway", sans-serif;
@@ -124,11 +136,15 @@ section {
   top: 60px;
   left: -63px;
 }
-
+.vertical-heading h2 span{
+  color: #34c3eb;
+}
 .vertical-heading h2 {
   margin: 0 0 0 35px;
 }
-
+.vertical-heading h2 span{
+  color: #34c3eb;
+}
 .horizontal-heading h2,
 .vertical-heading h2 {
   font-size: 42px;

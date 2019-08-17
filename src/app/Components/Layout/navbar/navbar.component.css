@@ -19,6 +19,7 @@ ul.navbar-nav>li>a {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
+  outline: 0;
 }
 
 ul.navbar-nav>li>a:hover,
