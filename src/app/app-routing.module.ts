@@ -2,18 +2,16 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './Components/Pages/home/home.component';
 import { SettingPageComponent } from './Components/Pages/setting-page/setting-page.component';
-import { TeamMangmentPageComponent } from './Components/Pages/team-mangment-page/team-mangment-page.component';
-import { PlayersMangmentPageComponent } from './Components/Pages/players-mangment-page/players-mangment-page.component';
-import { ReportPageComponent } from './Components/Pages/report-page/report-page.component';
-import { AnalysisPageComponent } from './Components/Pages/analysis-page/analysis-page.component';
+import { SportsPageComponent } from './Components/Pages/sports-page/sports-page.component';
+import { SolutionsPageComponent } from './Components/Pages/solutions-page/solutions-page.component';
+import { ProductsPageComponent } from './Components/Pages/products-page/products-page.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'settings', component: SettingPageComponent },
-  { path: 'teamMangments', component: TeamMangmentPageComponent },
-  { path: 'playersMangments', component: PlayersMangmentPageComponent },
-  { path: 'reports', component: ReportPageComponent },
-  { path: 'analysis', component: AnalysisPageComponent },
+  { path: 'sports', component: SportsPageComponent },
+  { path: 'solutions', component: SolutionsPageComponent },
+  { path: 'products', component: ProductsPageComponent }
 ];
 
 @NgModule({

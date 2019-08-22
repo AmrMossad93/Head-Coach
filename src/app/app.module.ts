@@ -29,6 +29,13 @@ import { GuidBoxComponent } from './Components/Widgets/guid-box/guid-box.compone
 import { VedioGuidComponent } from './Components/Widgets/vedio-guid/vedio-guid.component';
 import { ModalComponent } from './Components/Widgets/modal/modal.component';
 import { NavTabsComponent } from './Components/Widgets/nav-tabs/nav-tabs.component';
+import { SportsPageComponent } from './Components/Pages/sports-page/sports-page.component';
+import { SolutionsPageComponent } from './Components/Pages/solutions-page/solutions-page.component';
+import { ProductsPageComponent } from './Components/Pages/products-page/products-page.component';
+import { PricePageComponent } from './Components/Pages/price-page/price-page.component';
+import { BoxComponent } from './Components/Widgets/box/box.component';
+import { WordStatmentComponent } from './Components/Widgets/word-statment/word-statment.component';
+import { PriceBoxesComponent } from './Components/Widgets/price-boxes/price-boxes.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +65,14 @@ import { NavTabsComponent } from './Components/Widgets/nav-tabs/nav-tabs.compone
     GuidBoxComponent,
     VedioGuidComponent,
     ModalComponent,
-    NavTabsComponent
+    NavTabsComponent,
+    SportsPageComponent,
+    SolutionsPageComponent,
+    ProductsPageComponent,
+    PricePageComponent,
+    BoxComponent,
+    WordStatmentComponent,
+    PriceBoxesComponent
   ],
   imports: [
     BrowserModule,
