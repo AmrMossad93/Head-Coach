@@ -1,3 +1,72 @@
-<p>
-  products-page works!
-</p>
+<app-head-page-carousel [headName]="'Products'" [tittle]="'Optimise your athlete’s performance.'"
+  [paraghragh1]="'Retrieve your analyses wherever you are by means of the Smart Cloud web platform'"
+  [paraghragh2]="'Share the points for improvement with your athlete so that they can put them into practice'"
+  [paraghragh3]="'Visualise and display the results of your work on whatever device you are using'"
+  [image1]="'../../../../assets/Tools/Images/TestImg/image1.jpg'"
+  [image2]="'../../../../assets/Tools/Images/TestImg/image2.jpg'"
+  [image3]="'../../../../assets/Tools/Images/TestImg/image3.jpg'">
+</app-head-page-carousel>
+<br>
+<br>
+<app-guid-box [pageName]="'Products'" [icon1]="'fas fa-drum-steelpan'" [feature1]="'Feature Name'"
+  [paragragh1]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'"
+  [icon2]="'fas fa-hands-helping'" [feature2]="'Feature Name'"
+  [paragragh2]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'"
+  [icon3]="'fas fa-people-carry'" [feature3]="'Feature Name'"
+  [paragragh3]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+</app-guid-box>
+<br>
+<app-vedio-guid [youtubeURL]="'https://www.youtube.com/embed/qI1ondD4FGU?list=RDqI1ondD4FGU'"></app-vedio-guid>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="vertical-heading">
+        <h5>Our Product</h5>
+        <h2>Your <span><strong>Product</strong></span><br>Features</h2>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-mobile-alt'" [featureName]="'Mobile'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'far fa-dot-circle'" [featureName]="'360'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'far fa-dot-circle'" [featureName]="'360'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-satellite-dish'" [featureName]="'Live'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-chalkboard-teacher'" [featureName]="'Pro'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-chalkboard-teacher'" [featureName]="'Pro'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+  </div>
+</div>
+<app-word-statment [nameBy]="'Hazem Hamed'"
+  [wordStatment]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+</app-word-statment>
+<br>
+<app-price-boxes [basicPrice]="'30'" [professionalPrice]="'40'" [unlimitedPrice]="'50'"></app-price-boxes>

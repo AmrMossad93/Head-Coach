@@ -1,3 +1,72 @@
-<p>
-  solutions-page works!
-</p>
+<app-head-page-carousel [headName]="'Solutions'" [tittle]="'Rehab Smarter. Enhance Care. Profit More.'"
+  [paraghragh1]="'The best video technology solution for your patients. Used by thousands of healthcare practices.'"
+  [paraghragh2]="'Evaluate & improve any movement. Effectively.'"
+  [paraghragh3]="'One-touch video review by capturing a live video stream directly. Selectively, review what matters. Analytical tools gather valid movement data and you can use unique video replay features to demonstrate patients movement and progress.'"
+  [image1]="'../../../../assets/Tools/Images/TestImg/image1.jpg'"
+  [image2]="'../../../../assets/Tools/Images/TestImg/image2.jpg'"
+  [image3]="'../../../../assets/Tools/Images/TestImg/image3.jpg'">
+</app-head-page-carousel>
+<br>
+<br>
+<app-guid-box [pageName]="'Solutions'" [icon1]="'fas fa-drum-steelpan'" [feature1]="'Feature Name'"
+  [paragragh1]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'"
+  [icon2]="'fas fa-hands-helping'" [feature2]="'Feature Name'"
+  [paragragh2]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'"
+  [icon3]="'fas fa-people-carry'" [feature3]="'Feature Name'"
+  [paragragh3]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+</app-guid-box>
+<br>
+<app-vedio-guid [youtubeURL]="'https://www.youtube.com/embed/qI1ondD4FGU?list=RDqI1ondD4FGU'"></app-vedio-guid>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="vertical-heading">
+        <h5>Our Solutions</h5>
+        <h2>Your <span><strong>Solutions</strong></span><br>Features</h2>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-heartbeat'" [featureName]="'Healthcare'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-award'" [featureName]="'Educations'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-tv'" [featureName]="'Head Coach TV'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-film'" [featureName]="'Video Replay'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-podcast'" [featureName]="'Broadcast'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+    <div class="col-md-4">
+      <app-box [icon]="'fas fa-laptop-code'" [featureName]="'Computer Vision'"
+        [paragragh]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+      </app-box>
+    </div>
+  </div>
+</div>
+<app-word-statment [nameBy]="'Hazem Hamed'"
+  [wordStatment]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque expedita itaque, aperiam consequuntur nam voluptates vel deserunt autem eius similique, eveniet officia maiores ratione veniam maxime temporibus. Ipsum, maiores magnam.'">
+</app-word-statment>
+<br>
+<app-price-boxes [basicPrice]="'30'" [professionalPrice]="'40'" [unlimitedPrice]="'50'"></app-price-boxes>

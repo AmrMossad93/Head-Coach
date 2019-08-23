@@ -36,6 +36,7 @@ import { PricePageComponent } from './Components/Pages/price-page/price-page.com
 import { BoxComponent } from './Components/Widgets/box/box.component';
 import { WordStatmentComponent } from './Components/Widgets/word-statment/word-statment.component';
 import { PriceBoxesComponent } from './Components/Widgets/price-boxes/price-boxes.component';
+import { TabsBootstrapComponent } from './Components/Widgets/tabs-bootstrap/tabs-bootstrap.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { PriceBoxesComponent } from './Components/Widgets/price-boxes/price-boxe
     PricePageComponent,
     BoxComponent,
     WordStatmentComponent,
-    PriceBoxesComponent
+    PriceBoxesComponent,
+    TabsBootstrapComponent
   ],
   imports: [
     BrowserModule,
