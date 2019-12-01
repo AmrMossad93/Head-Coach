@@ -2,5 +2,57 @@
 <app-about-us></app-about-us>
 <app-statment></app-statment>
 <app-captain-services></app-captain-services>
+<section>
+  <br>
+  <app-vedio-guid [youtubeURL]="'https://www.youtube.com/embed/qI1ondD4FGU?list=RDqI1ondD4FGU'"></app-vedio-guid>
+  <br>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="vertical-heading">
+          <h5>Our Solutions</h5>
+          <h2>Your <span><strong>Solutions</strong></span><br>Features</h2>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <app-box [icon]="'fas fa-heartbeat'" [featureName]="'Healthcare'">
+        </app-box>
+      </div>
+      <div class="col-md-4">
+        <app-box [icon]="'fas fa-award'" [featureName]="'Educations'">
+        </app-box>
+      </div>
+      <div class="col-md-4">
+        <app-box [icon]="'fas fa-tv'" [featureName]="'Head Coach TV'">
+        </app-box>
+      </div>
+      <div class="col-md-4">
+        <app-box [icon]="'fas fa-film'" [featureName]="'Video Replay'">
+        </app-box>
+      </div>
+      <div class="col-md-4">
+        <app-box [icon]="'fas fa-podcast'" [featureName]="'Broadcast'">
+        </app-box>
+      </div>
+      <div class="col-md-4">
+        <app-box [icon]="'fas fa-laptop-code'" [featureName]="'Computer Vision'">
+        </app-box>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <app-pricing></app-pricing>
 <app-contact-us></app-contact-us>
