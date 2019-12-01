@@ -43,7 +43,7 @@
   color: #fff;
   font-size: 65px;
   font-weight: 100;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 0;
   display: inline-block;
 }
@@ -78,28 +78,33 @@
 #arrow-down:focus {
   color: #34c3eb
 }
+
 /* Animation */
 
 #home-heading-1,
 #home-heading-2,
 #home-text,
 #home-btn,
-#arrow-down i{
+#arrow-down i {
   animation-duration: 1.5s;
 }
 
-#home-heading-1{
+#home-heading-1 {
   animation-delay: 1s
 }
-#home-heading-2{
+
+#home-heading-2 {
   animation-delay: 1.5s
 }
-#home-text{
+
+#home-text {
   animation-delay: 2s
 }
-#home-btn{
+
+#home-btn {
   animation-delay: 2.5s
 }
-#arrow-down i{
+
+#arrow-down i {
   animation-delay: 3s
 }
