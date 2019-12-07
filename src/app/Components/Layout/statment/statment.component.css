@@ -1,19 +1,44 @@
 #statment {
-  background: url(../../../../assets/Tools/Images/Statment/Other-sports-banner.jpg)
-    no-repeat fixed center;
+  background: url(../../../../assets/Tools/Images/Statment/Other-sports-banner.jpg) no-repeat fixed center;
   background-size: cover;
 }
+
 #statment .content-box-lg {
   background: rgba(0, 0, 0, 0.7);
 }
+
 #sport-statment h3 {
   color: #fff;
   font-size: 28px;
   line-height: 45px;
 }
+
 #sport-statment p {
   font-size: 14px;
   color: #34c3eb;
   font-family: "Raleway", sans-serif;
   margin-top: 8px;
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #sport-statment h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  #sport-statment h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }

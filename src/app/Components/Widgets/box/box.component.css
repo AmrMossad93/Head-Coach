@@ -60,3 +60,36 @@
   -webkit-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
 }
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-item {
+    padding: 30px 30px;
+  }
+
+  .about-item i {
+    font-size: 35px;
+  }
+
+  .about-item h3 {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .about-item {
+    padding: 37px 30px;
+  }
+
+  .about-item h3 {
+    font-size: 18px;
+  }
+}

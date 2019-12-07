@@ -18,3 +18,30 @@
   margin-top: -35px;
   margin-left: -35px;
 }
+
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #status{
+    left: 44%;
+    top: 44%;
+    margin-top: -35px;
+    margin-left: -43px;
+  }
+}
+
+@media (max-width: 767px) {
+  #status{
+    left: 44%;
+    top: 44%;
+    margin-top: -35px;
+    margin-left: -76px;
+  }
+}

@@ -12,7 +12,10 @@ ul.office-details li {
   margin-top: 12px;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: inline-flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexBox;
+
 }
 
 ul.office-details li i {
@@ -29,4 +32,52 @@ ul.office-details li i {
 #contact-left ul.social-list li a:hover {
   color: #fff;
   border-color: transparent;
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  ul.office-details {
+    text-align: center;
+  }
+
+  .office {
+    text-align: center;
+  }
+
+  ul.office-details li {
+    margin-right: 15px;
+  }
+
+  ul.office-details li i {
+    width: 25px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  #contact-left {
+    text-align: center;
+  }
+
+  .office {
+    margin-bottom: 40px;
+  }
+
+  ul.office-details li {
+    display: block;
+    margin-top: 25px;
+  }
+
+  ul.office-details li i {
+    width: auto;
+    display: block;
+    margin-top: 3px;
+  }
 }
