@@ -130,7 +130,7 @@
 
 @media (max-width: 767px) {
   #home-heading h1 {
-    font-size: 22px;
+    font-size: 48px;
   }
 
   #home-heading p {
@@ -142,7 +142,7 @@
 
 @media (max-width: 480px) {
   #home-heading h1 {
-    font-size: 18px;
+    font-size: 48px;
   }
 
   #home-heading p {
