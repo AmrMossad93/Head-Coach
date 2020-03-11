@@ -25,7 +25,7 @@ ul.navbar-nav > li > a {
 ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus {
   background: none;
-  color: #34c3eb;
+  color: #ffc107;
 }
 
 
@@ -45,14 +45,14 @@ ul.navbar-nav > li > a:focus {
 
 .white-nav-top ul.navbar-nav > li > a:hover,
 .white-nav-top ul.navbar-nav > li > a:focus {
-  color: #34c3eb;
+  color: #ffc107;
 }
 
 
 /* Scroll spy active state */
 
 .white-nav-top ul.navbar-nav > li.active > a {
-  color: #34c3eb;
+  color: #ffc107;
   font-weight: 500;
 }
 
@@ -62,7 +62,7 @@ ul.navbar-nav > li > a:focus {
 
 #mobile-nav-open-btn {
   font-size: 30px;
-  color: #34c3eb;
+  color: #ffc107;
   cursor: pointer;
   z-index: 2;
   position: absolute;
@@ -89,7 +89,7 @@ ul.navbar-nav > li > a:focus {
 #mobile-nav-close-btn {
   font-family: "Raleway", sans-serif;
   font-size: 70px;
-  color: #212226;
+  color: #ffc107;
   font-weight: 400;
   cursor: pointer;
   position: absolute;
@@ -126,7 +126,7 @@ ul.navbar-nav > li > a:focus {
 #mobile-nav a:focus,
 #mobile-nav-close-btn:hover,
 #mobile-nav-close-btn:focus {
-  color: #34c3eb;
+  color: #ffc107;
   background: none;
 }
 
@@ -134,7 +134,7 @@ ul.navbar-nav > li > a:focus {
 /* Mobile nav scroll spy active state */
 
 .white-nav-top #mobile-nav ul.nav > li.active > a {
-  color: #34c3eb;
+  color: #ffc107;
   font-weight: 500;
 }
 

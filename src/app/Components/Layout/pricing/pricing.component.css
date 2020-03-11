@@ -9,19 +9,19 @@
 }
 
 .pricing-table:hover {
-  background: #34c3eb;
+  background: #ffc107;
 }
 
 .pricing-table .type h4 {
-  color: #34c3eb;
+  color: #ffc107;
   font-size: 40px;
   margin-bottom: 25px;
   text-align: center;
 }
 
 .pricing-table .price {
-  border-top: 1px solid #34c3eb;
-  border-bottom: 1px solid #34c3eb;
+  border-top: 1px solid #ffc107;
+  border-bottom: 1px solid #ffc107;
   padding: 24px 0;
 }
 
@@ -91,7 +91,7 @@
 
 .pricing-table:hover .btn-red {
   background: #fff;
-  color: #34c3eb;
+  color: #ffc107;
   border: 1px solid #fff;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .pricing-table.black:hover {
-  background: #34c3eb;
+  background: #ffc107;
 }
 
 @media (min-width: 1200px) and (max-width: 1299px) {

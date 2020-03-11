@@ -34,7 +34,7 @@
 .about-item hr {
   width: 45px;
   height: 3px;
-  background-color: #34c3eb;
+  background-color: #ffc107;
   margin: 0 auto;
   border: none;
 }
@@ -44,7 +44,7 @@
 }
 
 .about-item:hover {
-  background-color: #34c3eb;
+  background-color: #ffc107;
 }
 
 .about-item:hover i,

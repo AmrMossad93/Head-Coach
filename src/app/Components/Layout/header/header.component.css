@@ -49,7 +49,7 @@
 }
 
 #home-heading h1 span {
-  color: #34c3eb;
+  color: #ffc107;
   font-weight: 500;
 }
 
@@ -76,7 +76,7 @@
 
 #arrow-down:hover,
 #arrow-down:focus {
-  color: #34c3eb
+  color: #ffc107
 }
 
 /* Animation */

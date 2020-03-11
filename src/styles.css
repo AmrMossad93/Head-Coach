@@ -33,6 +33,16 @@ p {
   line-height: 24px;
 }
 
+a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #ffc107;
+  text-decoration: none;
+}
+
 section {
   background: #fff;
   overflow: hidden;
@@ -76,14 +86,14 @@ section {
 .btn-home:focus,
 .btn-home:active {
   color: #fff;
-  background-color: #34c3eb;
-  border: 1px solid #34c3eb;
+  background-color: #ffc107;;
+  border: 1px solid #ffc107;
 }
 
 .btn-blue {
   color: #fff;
   border: 1px solid #fff;
-  background-color: #34c3eb;
+  background-color: #ffc107;
 }
 
 .btn-blue:hover,
@@ -129,7 +139,7 @@ section {
 
 /* Vertical Tittles */
 .vertical-heading h5 {
-  color: #34c3eb;
+  color: #ffc107;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -143,7 +153,7 @@ section {
 }
 
 .vertical-heading h2 span {
-  color: #34c3eb;
+  color: #ffc107;
 }
 
 .vertical-heading h2 {
@@ -151,7 +161,7 @@ section {
 }
 
 .vertical-heading h2 span {
-  color: #34c3eb;
+  color: #ffc107;
 }
 
 .horizontal-heading h2,
@@ -167,7 +177,7 @@ section {
 
 .horizontal-heading h5 {
   font-size: 16px;
-  color: #34c3eb;
+  color: #ffc107;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 10px;
@@ -201,12 +211,12 @@ ul.social-list li a {
 }
 
 ul.social-list li:nth-child(1) a:hover {
-  background: #3b5998;
+  background: #ffc107;
   border-color: transparent;
 }
 
 ul.social-list li:nth-child(2) a:hover {
-  background: #00aced;
+  background: #ffc107;
   border-color: transparent;
 }
 
@@ -240,6 +250,7 @@ ul.social-list li:nth-child(3) a:hover {
   .container {
     width: 890px;
   }
+
   .vertical-heading h2 {
     font-size: 29px;
   }
