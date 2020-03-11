@@ -13,13 +13,13 @@ $(function () {
     autoplayHoverPause: true,
     dots: true
   })
-})
+});
 // Responsive Tabs
 $(function () {
   $("#service-tabs").responsiveTabs({
     animation: 'slide'
   })
-})
+});
 // Portfolio
 $(window).on('load', function () {
   $("#isotope-container").isotope({});
@@ -31,7 +31,7 @@ $(window).on('load', function () {
     $('#isotope-filters').find('.active').removeClass('active');
     $(this).addClass('active');
   })
-})
+});
 // Magnifire
 $(function () {
   $("#portfolio-wrapper").magnificPopup({
@@ -41,7 +41,7 @@ $(function () {
       enabled: true
     }
   })
-})
+});
 // NavBar
 $(function () {
   // show/hide nav on page load
